@@ -1,0 +1,130 @@
+#services{
+  margin-bottom: 100px;
+  .services-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 73px;
+    h2{
+      font-weight: 600;
+      font-size: 36px;
+      color: #000000;
+    }
+    &__block{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 25px;
+      p{
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.8)
+      }
+      .line{
+        padding: 0 25px;
+        height: 2px;
+        background: #EC3025;
+        margin-top: 8px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .services--general{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__card{
+      position: relative;
+      overflow: hidden;
+      height: 90px;
+      width: 100px;
+      box-shadow: 0 2px 21px rgba(0,0,0,0.25);
+      border-radius: 26px 0 26px 0;
+      transition: all 1s ease-in-out;
+      &:hover{
+        box-shadow: 0 0 10px 1px #ff0000;
+        height: 300px;
+        width: 330px;
+      }
+      &:hover .title, &:hover .description{
+        height: 20%;
+      }
+      &:hover .title h4{
+        opacity: 1;
+        transform: scale(1);
+      }
+      .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background: linear-gradient(0deg,rgba(1,26,34,0.89),rgba(1,26,34,0.09));
+        background-size: cover;
+        transition: all 1s ease-in-out;
+        h4 {
+          opacity: 0;
+          transform: scale(0);
+          transition: all 1s ease-in-out;
+          font-weight: 500;
+          font-size: 18px;
+          color: #FFFFFF;
+        }
+      }
+      .description{
+        height: 0;
+        padding: 20px 50px 30px 50px;
+        background-color: #FFFFFF;
+        transition: all 1s ease-in-out;
+        h5{
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 26px;
+          color: #000;
+        }
+        p{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+        }
+      }
+      .corner{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 100px solid #EC3025;
+        border-right: 100px solid transparent;
+      }
+      .right-top-corner{
+        left: auto;
+        right: 0;
+        transform: rotate(90deg);
+      }
+      .left-bottom-corner{
+        top: auto;
+        bottom: 0;
+        transform: rotate(-90deg);
+      }
+      .link-icon{
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        width: 60px;
+      }
+      .link-icon2{
+        position: absolute;
+        bottom: 8px;
+        left: 8px;
+        color: #fff;
+      }
+    }
+    .card1:hover{
+      width: 300px;
+      height: 218px;
+    }
+  }
+}

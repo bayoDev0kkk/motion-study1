@@ -1,0 +1,55 @@
+#header{
+  background: #fff;
+  box-shadow: 1px 13px 103px rgba(0, 0, 0, 0.22);
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  animation: ani 1s alternate;
+  @keyframes ani {
+    0%{
+      transform: translateY(-400px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  .navbar--general{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__block{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      a{
+        margin-left: 30px;
+        font-weight: 500;
+        transition: all .4s ease-in-out;
+        &:hover{
+          color: #EC3025;
+        }
+      }
+      .list{
+        list-style: none;
+        margin-left: 30px;
+        font-weight: 500;
+        color: #000000;
+      }
+      select {
+        margin: 30px 20px;
+        border: none;
+        background: transparent;
+        padding: 5px;
+        font-size: 16px;
+        height: 34px;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 500;
+        line-height: 24px;
+      }
+      option{
+        font-weight: 500;
+        line-height: 24px;
+      }
+    }
+  }
+}
