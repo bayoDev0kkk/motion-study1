@@ -1,5 +1,6 @@
 import React from 'react';
 import l from './../../assets/img/logo.svg'
+import {NavLink} from "react-router-dom";
 const Header = () => {
     return (
         <div id="header">
@@ -9,7 +10,7 @@ const Header = () => {
                         <img src={l} alt="Logo"/>
                     </div>
                     <ul className= "navbar--general__block">
-                        <a href='#' className='list'>About us</a>
+                        <a href="#" className="list">About</a>
                         <a href='#' className='list'>Services</a>
                         <select name="" id="select-list">
                             <option value="l1">List country</option>
