@@ -10,7 +10,8 @@ const Header = () => {
                         <img src={l} alt="Logo"/>
                     </div>
                     <ul className= "navbar--general__block">
-                        <a href="#" className="list">About</a>
+                        <NavLink to="/hero" className="list">Home</NavLink>
+                        <a href="/about-page" className="list">About</a>
                         <a href='#' className='list'>Services</a>
                         <select name="" id="select-list">
                             <option value="l1">List country</option>
