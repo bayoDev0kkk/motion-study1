@@ -16,7 +16,7 @@ const About = () => {
                     <img src={a} alt=""/>
                     <div className="about--general__block">
                         <h4>Why are we ?</h4>
-                        <p>Motion Web IT academy is an international educational
+                98        <p>Motion Web IT academy is an international educational
                             project that trains IT practitioners.
                             We have been in the IT education market for more
                             than one year.All this time, we have been studying
