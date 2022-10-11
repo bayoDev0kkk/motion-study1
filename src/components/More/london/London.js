@@ -6,7 +6,9 @@ const London = () => {
             <div className="container">
                 <h1>London</h1>
                 <div className="london-general">
-                    
+                    <div className="london-general__block">
+
+                    </div>
                 </div>
             </div>
         </div>
