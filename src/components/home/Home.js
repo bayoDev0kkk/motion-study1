@@ -1,6 +1,6 @@
 import React from 'react';
 import Hero from "../Hero/Hero";
-import About from "../about/about";
+import About from "../about/About";
 import Choose from "../Choose/Choose";
 import Servises from "../Servises/servises";
 import Feedback from "../Feedback/Feedback";

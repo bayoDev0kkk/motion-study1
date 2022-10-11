@@ -1,6 +1,6 @@
 import React from 'react';
 import a from './../../assets/img/about.png'
-import About from "../about/about";
+import About from "../about/About";
 const More = () => {
     return (
         <div>
