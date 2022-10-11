@@ -26,7 +26,6 @@ function App() {
                 <Route path={'/newYork'} element={<NewYourk/>}/>
                 <Route path={'/turkey'} element={<Turkey/>}/>
             </Routes>
-
             <Footer/>
 
 
