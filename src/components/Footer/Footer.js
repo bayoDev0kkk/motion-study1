@@ -37,6 +37,10 @@ const Footer = () => {
                             <a href="#"><i className='fab fa-youtube'></i></a>
                         </div>
                     </div>
+                    <div className="footer-p">
+                        <div className="c1"><p>c</p></div>
+                        <p className='p'>2022 Motion Web IT ACADEMY</p>
+                    </div>
                 </div>
             </div>
         </div>

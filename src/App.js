@@ -2,7 +2,6 @@ import './styles/style.scss';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import More from "./components/More/More";
-// import AboutPage from "./pages/about-page";
 import {Route, Routes} from "react-router-dom";
 import Home from "./components/home/Home";
 import Russia from "./components/More/russia/Russia";
